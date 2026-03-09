@@ -3,25 +3,25 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const testimonials = [
   {
-    name: "Елена Родригес",
-    role: "Директор по нейронауке, Quantum Dynamics",
-    avatar: "/professional-woman-scientist.png",
-    content:
-      "SynapseAI изменил наш подход к нейрореабилитации. Результаты пациентов улучшились на 340% после внедрения.",
-  },
-  {
-    name: "Маркус Уильямс",
-    role: "Руководитель исследований, Stellar Analytics",
+    name: "Алексей Громов",
+    role: "Гонщик-любитель, Москва",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
-      "Точность и протоколы безопасности не имеют аналогов. Мы значительно ускорили клинические испытания с платформой SynapseAI.",
+      "Через MotoX Club нашёл трассу в 20 минутах от дома и команду для совместных выездов. Теперь катаемся каждые выходные!",
   },
   {
-    name: "Анна Ковальски",
-    role: "Вице-президент по разработке, Nova Industries",
+    name: "Марина Соколова",
+    role: "Мотокросс-энтузиаст, Санкт-Петербург",
     avatar: "/asian-woman-tech-developer.jpg",
     content:
-      "Интеграция прошла безупречно. Адаптивные алгоритмы понимают намерения пользователя лучше любой системы, что мы тестировали.",
+      "Здесь реально помогают новичкам. Подсказали с выбором мотоцикла, экипировкой и первой трассой. Сообщество огонь!",
+  },
+  {
+    name: "Дмитрий Захаров",
+    role: "Профессиональный гонщик, Екатеринбург",
+    avatar: "/placeholder-user.jpg",
+    content:
+      "Отличная площадка для продвижения себя. Нашёл спонсора через сообщество и теперь выступаю в региональном чемпионате.",
   },
 ]
 
@@ -30,9 +30,9 @@ export function TestimonialsSection() {
     <section className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют лидеры</h2>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Что говорят участники</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят лидеры индустрии о нашей революционной технологии
+            Реальные истории гонщиков и энтузиастов из нашего сообщества
           </p>
         </div>
 
